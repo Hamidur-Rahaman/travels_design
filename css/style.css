@@ -1,0 +1,139 @@
+
+#menu{
+	width:100%;height:30px;background-color:green;padding-top:10px;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: dodgerblue;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+        z-index: 9999;
+    
+}
+
+.logo{
+    height: 60px;
+    width: 100%;
+}
+
+.logo img{
+    width: 79%;
+    height: 60px;
+   
+    
+}
+
+.navber{
+    height: 60px;
+    width: 100%;
+    margin-top: 0px;
+    
+    
+}
+.navber ul{
+    float: left;     
+}
+.navber ul li{
+    list-style: none;
+    float: left;
+    
+}
+.navber ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    padding: 19px 10px; 
+}
+/*
+.navber ul li:last-child a{
+    border-right: none;
+    padding-right: none;
+    
+}*/
+
+.navber ul li a:hover{
+    color: black;
+    background-color: blue;
+   
+    
+}
+
+
+.shadow{
+    margin-top: 150px;
+    min-height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px 7px white;
+}
+
+.admin_shadow {
+    min-height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px 7px white;
+    margin-top: 125px;
+}
+
+
+.register_bottom_space {
+    margin-bottom: 70px;
+    margin-top: 150px;
+}
+
+.background{
+    background-image: url(../images/ahsan_monjil.jpg);
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    
+}
+
+.list_background{
+    background-image: url(../images/list_background.jpg);
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    
+}
+
+#form1{
+    width:300px; margin:auto; background-color:gray; padding:20px;
+}
+#form2{
+    height:40px;background-color:green;width:100%;text-align:center; padding-top:10px; margin-bottom:20px; 
+    border-radius:5px; color:#fff;
+}
+.submit{
+    height:35px;width:100%;background-color:#763503;color:#fff;box-shadow:0px 0px 5px 0px #ccc;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
